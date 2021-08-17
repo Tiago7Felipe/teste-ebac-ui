@@ -4,7 +4,7 @@ var faker = require('faker');
 describe('Funcionalidade Tela de produtos', () => {
 
     beforeEach(() => {
-        cy.visit('http://lojaebac.ebaconline.art.br/produtos/')
+        cy.visit('produtos')
     });
 
     it('Selecionar um produto da lista', () => {
