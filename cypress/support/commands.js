@@ -41,3 +41,13 @@ Cypress.Commands.add('preCadastro', (email,senha,nome,sobrenome) => {
     cy.get('#account_last_name').type(sobrenome)
     cy.get('.woocommerce-Button').click()
 })
+
+Cypress.Commands.add('produtos', (produto, qtd) => {
+    cy.get('[class="product-block grid"]')
+            .contains(produto)
+            .click()
+        cy.get('.button-variable-item-M').click()
+        cy.get('.button-variable-item-Green').click()
+        cy.get('.input-text').clear().type(qtd)
+        cy.get('.single_add_to_cart_button').click()
+})
