@@ -1,0 +1,30 @@
+[
+    {
+        "nome":"João",
+        "sobrenome": "Pedro",
+        "empresa": "Google",
+        "pais": "Brasil",
+        "rua": "Rua B",
+        "numero": "559",
+        "cidade": "Rio Acima",
+        "uf": "minas",
+        "cep": "32251-000",
+        "telefone": "3121232565",
+        "email": "teste.teste@dominio.com.br"
+    },
+    {
+        "nome":"Caique",
+        "sobrenome": "Alfredo",
+        "empresa": "Tim",
+        "pais": "Brasil",
+        "rua": "Rua D",
+        "numero": "560",
+        "cidade": "Rio Manso",
+        "uf": "minas",
+        "cep": "32121-020",
+        "telefone": "3121230000",
+        "email": "teste.teste@dominio.com"
+    }
+
+
+]
